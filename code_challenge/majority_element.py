@@ -11,7 +11,7 @@ def majority_element_indexes(lst):
     >>> majority_element_indexes([])
     []
     '''
-    # find the majority element
+    # find the majority element, use counter
     # if there is no majority return []
     # return the index of the majority element
     if lst == []: 
